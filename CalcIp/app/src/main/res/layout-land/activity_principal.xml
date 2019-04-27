@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.bikikis.calcip.Principal">
+
+    <TextView android:text="Informe a quantidade de Hosts que possuirá sua rede:" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUm"
+        android:textSize="20dp"
+        android:textColor="#2372a3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtQtd"
+        android:layout_below="@+id/txtUm"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/txtUm"
+        android:layout_alignEnd="@+id/txtUm"
+        android:numeric="integer|signed"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CONSULTAR"
+        android:id="@+id/btnUm"
+        android:background="#2372a3"
+        android:textColor="#ffffffff"
+        android:onClick="click"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/edtQtd"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IP     "
+            android:id="@+id/txtip"
+            android:textSize="20dp"
+            android:textColor="#2372a3" />
+
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtIpUm"
+            android:numeric="integer|signed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:id="@+id/txtpt" />
+
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtIpDois"
+            android:numeric="integer|signed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:id="@+id/txtpt2" />
+
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtIpTres"
+            android:numeric="integer|signed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:id="@+id/txtpt3" />
+
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtIpQuatro"
+            android:numeric="integer|signed"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/button"
+        android:background="@drawable/imgdoism"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

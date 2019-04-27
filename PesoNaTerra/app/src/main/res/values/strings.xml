@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PesoNaTerra</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="asd">Peso na Terra(kg):</string>
+</resources>

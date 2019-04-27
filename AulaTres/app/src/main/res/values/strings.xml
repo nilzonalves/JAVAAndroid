@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AulaTres</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtUm">Tela1</string>
+    <string name="title_activity_tela_dois">TelaDois</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Subtrair</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtUm">Número 1</string>
+    <string name="txtDois">Número 2</string>
+    <string name="txtTres">Resultado</string>
+    <string name="txtQuatro" />
+    <string name="btnUm">Subtrair</string>
+</resources>

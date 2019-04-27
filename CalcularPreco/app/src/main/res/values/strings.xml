@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CalcularPreco</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="pdtUm">Produto 1</string>
+    <string name="pdtDois">Produto 2</string>
+    <string name="txtTres">Valor</string>
+    <string name="txtDois">Valor</string>
+    <string name="txtTrees">Massa/Volume/Qtd</string>
+    <string name="txtQuatro">Produto 2</string>
+    <string name="txtCinco">Valor</string>
+    <string name="txtSeis">Massa/Volume/Qtd</string>
+    <string name="btnUm">Calcular</string>
+    <string name="txtSete" />
+</resources>

@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.fiemg.numeroseis.resultado">
+
+    <TextView android:text="Salário Antigo(R$)  " android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtas"
+        android:textSize="15dp"
+        android:layout_below="@+id/asdfre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="87dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/salA"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/txtas"
+        android:layout_toRightOf="@+id/txtas"
+        android:layout_toEndOf="@+id/txtas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percentual de Aumento(%)"
+        android:id="@+id/txtper"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp"
+        android:layout_below="@+id/salA"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPerce"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/txtper"
+        android:layout_toRightOf="@+id/txtper"
+        android:layout_toEndOf="@+id/txtper" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novo Salário(R$)"
+        android:id="@+id/txtnsla"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPerce"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/salN"
+        android:textSize="20dp"
+        android:layout_alignTop="@+id/txtnsla"
+        android:layout_toRightOf="@+id/txtnsla"
+        android:layout_toEndOf="@+id/txtnsla" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultados:"
+        android:id="@+id/asdfre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnImgResult"
+        android:background="@drawable/img2"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/salN"
+        android:layout_toRightOf="@+id/txtnsla"
+        android:layout_toEndOf="@+id/txtnsla" />
+
+</RelativeLayout>

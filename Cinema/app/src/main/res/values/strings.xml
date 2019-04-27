@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cinema</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_relatorio">relatorio</string>
+    <string name="title_activity_login">Login</string>
+    <string name="txtuser">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="btnLogin">Login</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="BRT">É O Q mALUCO!?</string>
+    <string name="asdfg">LCD ou Soled?</string>
+    <string name="hre">LCD ou Soled?</string>
+</resources>
